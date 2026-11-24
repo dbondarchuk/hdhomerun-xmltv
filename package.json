@@ -1,0 +1,22 @@
+{
+  "name": "hdhomerun-xmltv",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Discover HDHomeRun tuners and proxy SiliconDust XMLTV guide for Jellyfin",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "compression": "^1.8.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/compression": "^1.7.5",
+    "@types/express": "^5.0.3",
+    "@types/node": "^22.15.30",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
